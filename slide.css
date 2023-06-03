@@ -1,0 +1,65 @@
+
+.slide{
+    width: 1024px;
+    height: 576px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.4s;
+    box-shadow: #070707 6px 8px 18px;
+}
+.slides{
+    width: 5120;
+    display: flex;
+    
+}
+
+.imagem img{
+    width: 1024px;
+    height: 576px;
+
+}
+
+#atual{  
+    transition: all 2s;
+
+}
+
+
+#voltar{
+    top: 50%;
+    left: 10%;
+}
+
+#next{
+    top: 50%;
+    right: 10%;
+}
+.balls{
+    position: absolute;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+    top: 890px;
+    right: 500px; 
+}
+
+.balls div{
+    transition: all 0.5;
+    border: 3px solid #6D1D20 ;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+.balls div:hover{
+    background: #2b2a2a;
+}
+
+.imgatual{
+    transition: all 0,5s;
+    background: #6D1D20;
+
+}
